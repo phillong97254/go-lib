@@ -1,5 +1,5 @@
 # go-lib: thư viện dùng chung cho các service của go-admin-wallet (giống go-library ở các dự án trước).
-# Service import theo version: go get github.com/phil/go-lib@vX.Y.Z (hoặc make mod trong service).
+# Service import theo version: go get github.com/phillong97254/go-lib@vX.Y.Z (hoặc make mod trong service).
 VERSION ?=
 
 .PHONY: mod test release

@@ -1,4 +1,4 @@
-module github.com/phil/go-lib
+module github.com/phillong97254/go-lib
 
 go 1.26.0
 

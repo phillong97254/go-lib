@@ -6,6 +6,7 @@ Mỗi service import theo version, nên sửa thư viện ở đây rồi releas
 | Package | Nội dung |
 |---|---|
 | `authkit` | Claims/Policy (scope, role), verify JWT qua JWKS (cache + xoay key), middleware REST `Authenticate`/`Require`, gRPC `UnaryServerInterceptor`/`ForwardTokenInterceptor`, `WriteJSON`/`WriteError` |
+| `database` | `New(Config)` mở Postgres bằng gorm (pool, retry ping), `Migrate(url, fs, dir)` chạy golang-migrate từ SQL nhúng |
 | `apperr` | Kiểu lỗi trả từ service lên handler (HTTP status + message + lỗi gốc) và `Write(w, err)` |
 
 ## Phát hành version mới

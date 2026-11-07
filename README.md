@@ -22,5 +22,5 @@ make mod                          # cập nhật mọi thư viện (kể cả go
 make mod GO_LIB_VERSION=v0.2.0    # chốt go-lib ở 1 version cụ thể
 ```
 
-Khi chưa push go-lib lên remote, các service dùng bản local qua `replace => ../go-lib`
+Khi đang sửa go-lib và muốn thử ngay trong service mà chưa release, dùng bản local qua `replace => ../go-lib`
 (`make mod-local` trong service), push xong thì `make mod-remote`.
